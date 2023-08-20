@@ -11,7 +11,7 @@ int main(){
     cout<<"*********WELCOME TO NUMBER GUESSING GAME**********"<<endl;
     string name;
     cout<<"Enter Your Name: ";
-    cin>>name;
+    getline(cin,name);
     cout<<name<<", Let's play the game."<<endl;
     cout<<"-----------------------------------------------------------"<<endl;
     cout<<"Hints:Guess a number in range of 1 to 100"<<endl;
